@@ -92,7 +92,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Krishna Pandya" },
       { property: "og:site_name", content: "Krishna Pandya — UX Portfolio" },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "/portfolio-preview.png" },
       { name: "twitter:card", content: "summary_large_image" },
+       { name: "twitter:image", content: "/portfolio-preview.png" },
     ],
 
     links: [
